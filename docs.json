@@ -17,8 +17,9 @@
             "group": "Get Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "Startbuildingyourfirstapp",
+              "FeePlans",
+              "faq"
             ]
           },
           {
