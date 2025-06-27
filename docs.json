@@ -17,7 +17,7 @@
             "group": "Get Started",
             "pages": [
               "index",
-              { "path": "Startbuildingyourfirstapp", "title": "Start Building Now" },
+              {"path": "Startbuildingyourfirstapp", "title": "Start Building Now"},
               "FeePlans",
               "faq"
             ]
