@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "linden",
-  "name": "Mint Starter Kit",
+  "name": "OnSpace AI",
   "colors": {
     "primary": "#6E78FE",
     "light": "#A39AFF",
     "dark": "#6859F2"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
