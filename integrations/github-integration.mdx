@@ -53,7 +53,7 @@ Before you begin, you'll need:
   <Step title="Initial Authorization">
     - You'll be redirected to GitHub's authorization page:
     - **Select your GitHub account** to authorize OnSpace AI
-    - Click **Continue **to proceed to the permission screen 
+    - Click \*\*Continue \*\*to proceed to the permission screen
     - Review the basic permissions OnSpace AI requests:
       - Verify your GitHub identity
       - Know which resources you can access
@@ -104,3 +104,43 @@ From this point forward:
 - Team collaboration through standard GitHub workflows is enabled
 
 The connection is bidirectional and real-time, giving you the confidence that your work is always protected and professionally managed.
+
+## Under the Hood: Git Sync
+
+### The Technical Reality
+
+OnSpace AI doesn't reinvent version control. Instead, it operates as a Git client that communicates directly with GitHub's API, making standard Git operations on your behalf. Here's exactly how it works.
+
+### Real-Time Repository Operations
+
+**When you edit in OnSpace AI**:
+
+1. A commit is created with an auto-generated message describing the change
+2. The commit is pushed directly to your GitHub repository's default branch via GitHub API
+3. Your repository's commit history updates instantly
+
+**When external changes occur**:
+
+1. GitHub webhooks notify OnSpace AI of incoming commits
+2. OnSpace AI pulls the latest changes from the default branch
+3. The editor refreshes to reflect the new code state
+4. File tree and code view update automatically
+
+### Branch Strategy
+
+**Default branch focus**: OnSpace AI tracks only your repository's default branch. This design choice:
+
+- Simplifies the sync model for reliability
+- Aligns with CI/CD best practices
+- Prevents complex merge scenarios in the editor
+
+**Feature branch workflow**: External commits to feature branches remain invisible until merged to the default branch.
+
+### Conflict Resolution Mechanics
+
+**Detection**: OnSpace AI checks for conflicts before every push operation **When conflicts arise**:
+
+1. Auto-sync temporarily pauses
+2. Conflict markers appear in your GitHub repository
+3. Standard Git merge resolution applies
+4. OnSpace AI resumes sync after resolution is committed
