@@ -25,17 +25,6 @@
         ]
       },
       {
-        "dropdown": "Guides1",
-        "groups": [
-          {
-            "group": "changelog",
-            "pages": [
-              "changelog"
-            ]
-          }
-        ]
-      },
-      {
         "dropdown": "Changelog",
         "pages": [
           "changelog"
