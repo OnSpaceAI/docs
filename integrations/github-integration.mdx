@@ -9,7 +9,7 @@ As your OnSpace AI project grows from a simple prototype to a real application, 
 
 ### TL;DR:
 
-- \*\*The Problem: \*\*Without proper version control, you risk losing work, can't easily collaborate with developers, and might get locked into a single platform.
+- **The Problem:** Without proper version control, you risk losing work, can't easily collaborate with developers, and might get locked into a single platform.
 - **The Solution:** By linking your project to GitHub, every change in your OnSpace AI app is backed up in a Git repository in real time.
 - **What You Get:** Complete code history, ability to collaborate with developers in familiar workflows, and freedom to host or deploy your app anywhere.
 - **Git** is the version control system that tracks changes in your code.
@@ -31,3 +31,76 @@ GitHub integration transforms your OnSpace AI project from an isolated prototype
   Code changes flow both ways. Edit in OnSpace AI and see updates in GitHub instantly. Push changes from your IDE and watch them appear in OnSpace AI. Work however feels most productive.
 - **Enterprise Integration**
   Connect GitHub Actions for automated testing, building, and deployment pipelines. Integrate with your company's existing development workflow. Add security scanning, performance monitoring, or any tools your team already uses for web and mobile development.
+
+## Getting Started
+
+Setting up GitHub integration with your OnSpace AI project takes just a few minutes and ensures your code is backed up and version-controlled from day one.
+
+### Prerequisites
+
+Before you begin, you'll need:
+
+- GitHub Account: Sign up for free at github.com if you don't have one
+- OnSpace AI Project: An existing project in your OnSpace AI editor (or create a new one)
+- Repository Permissions: Ability to create repositories in your GitHub account or organization
+
+### Step-by-Step Setup
+
+<Steps>
+  <Step title="Start GitHub Connection">
+    In your OnSpace AI editor, click the **GitHub icon** in the top-right corner, then select **Connect GitHub**.
+  </Step>
+  <Step title="Initial Authorization">
+    - You'll be redirected to GitHub's authorization page:
+    - **Select your GitHub account** to authorize OnSpace AI
+    - Click **Continue **to proceed to the permission screen 
+    - Review the basic permissions OnSpace AI requests:
+      - Verify your GitHub identity
+      - Know which resources you can access
+      - Act on your behalf
+    - Click **Authorize onspace.ai** to grant initial permissions
+  </Step>
+  <Step title="Select Organization">
+    You'll be returned to OnSpace AI:
+
+    - The GitHub integration panel will show "**Not Connected**" status
+    - **Select an organization**: Choose between your personal account or any organizations you belong to from the dropdown
+  </Step>
+  <Step title="Install GitHub App">
+    After selecting your organization, you'll be redirected to GitHub again:
+
+    - Choose your repository access level:
+      - **All repositories**: Grants access to all current and future repositories (recommended for ease of use)
+      - **Only select repositories**: Choose specific repositories for OnSpace AI access
+    - Click**Install & Authorize**  to install the GitHub app to your selected account/organization
+  </Step>
+  <Step title="Connect Your Project">
+    Back in OnSpace AI:
+
+    - Select your preferred GitHub account/organization from the dropdown (if not already selected)
+    - Click **Connect Project** to create the repository and establish the connection
+  </Step>
+  <Step title="Verify Connection">
+    Once connected successfully:
+
+    - Status will change to **"Connected"** with a green indicator
+    - You'll see your repository path (e.g., `username/ProjectName`)
+    - An **"Edit in VS Code"** option becomes available
+    - Your project code is now synced to GitHub
+  </Step>
+</Steps>
+
+### Repository Privacy
+
+**Important**: Repositories created through OnSpace AI integration are **private by default**, ensuring your code remains secure and accessible only to you and invited collaborators.
+
+### You're All Set\!
+
+From this point forward:
+
+- Changes in OnSpace AI automatically commit to GitHub
+- External changes pushed to GitHub sync back to OnSpace AI
+- You have complete version history and professional backup
+- Team collaboration through standard GitHub workflows is enabled
+
+The connection is bidirectional and real-time, giving you the confidence that your work is always protected and professionally managed.
