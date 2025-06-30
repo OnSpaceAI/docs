@@ -34,9 +34,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Community",
-          "href": "https://discord.com/invite/PfpU27UFT2",
-          "icon": "slack"
+          "anchor": "OnSpace.AI",
+          "href": "https://https://onspace.ai/",
+          "icon": "/onspace_favicon.svg"
         }
       ]
     }
