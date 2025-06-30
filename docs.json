@@ -1,62 +1,62 @@
 {
-    "$schema": "https://mintlify.com/docs.json",
-    "theme": "linden",
-    "name": "OnSpace AI",
-    "colors": {
-      "primary": "#6E78FE",
-      "light": "#A39AFF",
-      "dark": "#6859F2"
-    },
-    "favicon": "/favicon.ico",
-    "navigation": {
-      "dropdowns": [
-        {
-          "dropdown": "Guides",
-          "groups": [
-            {
-              "group": "Get Started",
-              "pages": [
-                "index",
-                "Startbuildingyourfirstapp",
-                "FeePlans",
-                "faq",
-                "changelog"
-              ]
-            }
-          ]
-        }
-      ],
-      "global": {
-        "anchors": [
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "linden",
+  "name": "OnSpace AI",
+  "colors": {
+    "primary": "#6E78FE",
+    "light": "#A39AFF",
+    "dark": "#6859F2"
+  },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "dropdowns": [
+      {
+        "dropdown": "Guides",
+        "groups": [
           {
-            "anchor": "Community",
-            "href": "https://discord.com/invite/PfpU27UFT2",
-            "icon": "slack"
+            "group": "Get Started",
+            "pages": [
+              "index",
+              "Startbuildingyourfirstapp",
+              "FeePlans",
+              "faq",
+              "changelog"
+            ]
           }
         ]
       }
-    },
-    "logo": {
-      "light": "/logo/light1.svg",
-      "dark": "/logo/dark1.svg"
-    },
-    "navbar": {
-      "links": [
+    ],
+    "global": {
+      "anchors": [
         {
-          "label": "Support",
-          "href": "mailto:contact@onspace.ai"
+          "anchor": "Community",
+          "href": "https://discord.com/invite/PfpU27UFT2",
+          "icon": "slack"
         }
-      ],
-      "primary": {
-        "type": "button",
-        "label": "Get Started",
-        "href": "https://onspace.ai"
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light1.svg",
+    "dark": "/logo/dark1.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:contact@onspace.ai"
       }
-    },
-    "footer": {
-      "socials": {
-        "x": "https://x.com/onspace_ai",
-        "discord": "https://discord.com/invite/PfpU27UFT2" 
-      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://onspace.ai"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/onspace_ai",
+      "discord": "https://discord.com/invite/PfpU27UFT2" 
     }
   }
+}
