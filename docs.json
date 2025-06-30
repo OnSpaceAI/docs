@@ -9,6 +9,15 @@
   },
   "favicon": "/onspace_favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "OnSpace.AI",
+          "href": "https://onspace.ai/",
+          "icon": "/onspace_favicon.svg"
+        }
+      ]
+    },
     "dropdowns": [
       {
         "dropdown": "Guides",
@@ -30,16 +39,7 @@
           "changelog"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "OnSpace.AI",
-          "href": "https://onspace.ai/",
-          "icon": "/onspace_favicon.svg"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light1.svg",
