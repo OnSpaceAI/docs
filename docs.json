@@ -26,6 +26,21 @@
         ]
       },
       {
+        "dropdown": "Guides1",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "index",
+              "Startbuildingyourfirstapp",
+              "FeePlans",
+              "faq",
+              "changelog"
+            ]
+          }
+        ]
+      },
+      {
         "dropdown": "Changelog",
         "pages": [
           "changelog"
