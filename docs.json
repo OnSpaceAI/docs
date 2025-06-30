@@ -24,6 +24,12 @@
             ]
           }
         ]
+      },
+      {
+        "dropdown": "Changelog",
+        "pages": [
+          "changelog"
+        ]
       }
     ],
     "global": {
