@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "almond",
   "name": "OnSpace AI",
   "colors": {
     "primary": "#6E78FE",
