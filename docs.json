@@ -36,9 +36,9 @@
         }
       ]
     },
-    "dropdowns": [
+    "tabs": [
       {
-        "dropdown": "Guides",
+        "tab": "Guides",
         "groups": [
           {
             "group": "Get Started",
@@ -53,7 +53,7 @@
         ]
       },
       {
-        "dropdown": "Changelog",
+        "tab": "Changelog",
         "pages": [
           "changelog"
         ]
