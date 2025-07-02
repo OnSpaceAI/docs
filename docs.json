@@ -8,6 +8,24 @@
     "dark": "#6859F2"
   },
   "favicon": "/onspace_favicon.svg",
+  "logo": {
+    "light": "/logo/light1.svg",
+    "dark": "/logo/dark1.svg",
+    "href": "https://onspace.ai"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:contact@onspace.ai"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://www.onspace.ai"
+    }
+  },
   "navigation": {
     "global": {
       "anchors": [
@@ -41,24 +59,6 @@
         ]
       }
     ]
-  },
-  "logo": {
-    "light": "/logo/light1.svg",
-    "dark": "/logo/dark1.svg",
-    "href": "https://onspace.ai"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:contact@onspace.ai"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get Started",
-      "href": "https://www.onspace.ai"
-    }
   },
   "footer": {
     "socials": {
