@@ -44,6 +44,12 @@
         ]
       },
       {
+        "tab": "Integrations",
+        "pages": [
+          "integrations/github-integration"
+        ]
+      },
+      {
         "tab": "What's New",
         "pages": [
           "changelog"
