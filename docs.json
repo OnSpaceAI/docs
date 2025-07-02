@@ -7,10 +7,10 @@
     "light": "#A39AFF",
     "dark": "#6859F2"
   },
-  "favicon": "/onspace_favicon.svg",
+  "favicon": "/logo/onspace-favicon.svg",
   "logo": {
-    "light": "/logo/light1.svg",
-    "dark": "/logo/dark1.svg",
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
     "href": "https://onspace.ai"
   },
   "navbar": {
@@ -27,33 +27,24 @@
     }
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "OnSpace.AI",
-          "href": "https://www.onspace.ai",
-          "icon": "/onspace_favicon.svg"
-        }
-      ]
-    },
     "tabs": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "Startbuildingnow",
-              "FeePlans",
-              "faq",
-              "codemode"
-            ]
-          }
+        "tab": "Get Started",
+          "pages": [
+            "getting-started/index",
+            "getting-started/quick-start",
+            "getting-started/pricing",
+            "getting-started/faq"
+          ]
+      },
+      {
+        "tab": "Features",
+        "pages": [
+          "features/codemode"
         ]
       },
       {
-        "tab": "Changelog",
+        "tab": "What's New",
         "pages": [
           "changelog"
         ]
@@ -63,7 +54,9 @@
   "footer": {
     "socials": {
       "x": "https://x.com/onspace_ai",
-      "discord": "https://discord.com/invite/PfpU27UFT2" 
+      "discord": "https://discord.com/invite/PfpU27UFT2",
+      "github": "https://github.com/OnSpaceAI",
+      "youtube": "https://www.youtube.com/@OnSpace.AI-Official"
     }
   }
 }
