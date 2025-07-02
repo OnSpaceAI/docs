@@ -1,5 +1,5 @@
 ---
-title: "GitHub Integration: Own Your Code, Deploy Anywhere"
+title: "GitHub Integration"
 description: "Sync your OnSpace AI project with GitHub for full code ownership, version control, and deployment flexibility. Never get locked into a single platform - your code, your choice."
 ---
 
@@ -45,6 +45,13 @@ Before you begin, you'll need:
 - Repository Permissions: Ability to create repositories in your GitHub account or organization
 
 ### Step-by-Step Setup
+
+<img
+  src="/images/github.gif"
+  alt="github.gif"
+  title="github.gif"
+  style={{ width:"100%" }}
+/>
 
 <Steps>
   <Step title="Start GitHub Connection">
@@ -143,12 +150,3 @@ OnSpace AI doesn't reinvent version control. Instead, it operates as a Git clien
 - Prevents complex merge scenarios in the editor
 
 **Feature branch workflow**: External commits to feature branches remain invisible until merged to the default branch.
-
-### Conflict Resolution Mechanics
-
-**Detection**: OnSpace AI checks for conflicts before every push operation **When conflicts arise**:
-
-1. Auto-sync temporarily pauses
-2. Conflict markers appear in your GitHub repository
-3. Standard Git merge resolution applies
-4. OnSpace AI resumes sync after resolution is committed
