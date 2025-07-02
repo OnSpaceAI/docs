@@ -37,7 +37,8 @@
   },
   "logo": {
     "light": "/logo/light1.svg",
-    "dark": "/logo/dark1.svg"
+    "dark": "/logo/dark1.svg",
+    "href": "https://onspace.ai"
   },
   "navbar": {
     "links": [
