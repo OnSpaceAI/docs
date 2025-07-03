@@ -47,6 +47,7 @@
         "tab": "Integrations",
         "pages": [
           "integrations/github-integration"
+          "integrations/supabase-integration"
         ]
       },
       {
