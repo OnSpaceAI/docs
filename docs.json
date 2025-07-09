@@ -49,9 +49,9 @@
       {
         "tab": "Integrations",
         "pages": [
-          "integrations/github-integration",
           "integrations/supabase-integration",
-          "integrations/figma-integration"
+          "integrations/figma-integration",
+          "integrations/github-integration"
         ]
       },
       {
