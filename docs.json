@@ -42,7 +42,7 @@
         "pages": [
           "features/codemode",
           "features/mobileview",
-          "features/privacycontrols"
+          "features/visibilitycontrols"
         ]
       },
       {
