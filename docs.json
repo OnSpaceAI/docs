@@ -41,7 +41,8 @@
         "tab": "Features",
         "pages": [
           "features/codemode",
-          "features/mobileview"
+          "features/mobileview",
+          "features/privacycontrols"
         ]
       },
       {
