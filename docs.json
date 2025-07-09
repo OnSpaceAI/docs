@@ -42,7 +42,8 @@
         "pages": [
           "features/codemode",
           "features/mobileview",
-          "features/visibilitycontrols"
+          "features/visibilitycontrols",
+          "features/nameediting"
         ]
       },
       {
