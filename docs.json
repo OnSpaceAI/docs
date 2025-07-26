@@ -55,6 +55,12 @@
         ]
       },
       {
+        "tab": "Tutorials",
+        "pages": [
+          "vibe-coding-tutorials/video"
+        ]
+      },
+      {
         "tab": "What's New",
         "pages": [
           "changelog"
