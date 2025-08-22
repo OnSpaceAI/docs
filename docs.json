@@ -7,11 +7,11 @@
     "light": "#A39AFF",
     "dark": "#6859F2"
   },
-  "favicon": "/logo/onspace-favicon.svg",
-  "logo": {
-    "light": "/logo/dark.png",
-    "dark": "/logo/dark.png",
-    "href": "https://www.onspace.ai"
+ "favicon": "/logo/onspace-favicon.svg", 
+ "logo": { 
+    "light": "/logo/dark.svg", 
+    "dark": "/logo/dark.svg", 
+    "href": "https://www.onspace.ai" 
   },
   "navbar": {
     "links": [
