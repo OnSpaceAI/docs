@@ -1,4 +1,4 @@
-header img {
-  width: 120px;   /* 可以改成 80px / 100px，看你想要多小 */
-  height: auto;   /* 保持比例 */
+.mint-header-logo {
+  width: 100px;
+  height: auto;
 }
