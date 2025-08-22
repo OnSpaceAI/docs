@@ -10,7 +10,7 @@
   "favicon": "/logo/onspace-favicon.svg",
   "logo": {
     "dark": "/icon/onspace-dark.svg",
-    "light": "/icon/18.png",
+    "light": "/icon/onspace-light.png",
     "href": "https://www.onspace.ai"
   },
   "navbar": {
