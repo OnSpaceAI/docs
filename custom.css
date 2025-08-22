@@ -1,13 +1,10 @@
 .mint-header-logo {
-  max-width: 180px !important; 
-  width: auto !important;       
-  height: 50px !important;      
-  object-fit: contain;           
+  width: 180px !important;  
+  height: auto !important;   
 }
 
 @media (max-width: 768px) {
   .mint-header-logo {
-    max-width: 140px !important;
-    height: 40px !important;
+    width: 140px !important;
   }
 }
