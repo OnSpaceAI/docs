@@ -9,8 +9,8 @@
   },
   "favicon": "/logo/onspace-favicon.svg",
   "logo": {
-    "light": "/logo/dark.svg",
-    "dark": "/logo/dark.svg",
+    "light": "/icon/dark.svg",
+    "dark": "/icon/dark.svg",
     "href": "https://www.onspace.ai"
   },
   "navbar": {
