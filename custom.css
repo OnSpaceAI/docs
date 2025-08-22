@@ -1,4 +1,4 @@
 .mint-header-logo {
-  max-width: 50%;
-  height: auto;
+  max-width: 120px !important;
+  height: auto !important;
 }
