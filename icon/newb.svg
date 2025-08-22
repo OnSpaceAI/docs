@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="124px" height="14px" viewBox="0 0 124 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>logo/new文-黑</title>
+    <title>logo/new b</title>
     <defs>
         <linearGradient x1="-2.02095285e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
             <stop stop-color="#FF7DF1" offset="0%"></stop>
@@ -10,7 +10,7 @@
         </linearGradient>
         <path d="M13.5580866,0 C16.5220567,0 18.9248292,2.38184513 18.9248292,5.32 L18.9248292,8.68 C18.9248292,11.6181549 16.5220567,14 13.5580866,14 L5.3667426,14 C2.4027725,14 0,11.6181549 0,8.68 L0,5.32 C0,2.38184513 2.4027725,0 5.3667426,0 L13.5580866,0 Z M12.9931663,3.08 L6.21412301,3.08 C4.49814032,3.08 3.1070615,4.45896297 3.1070615,6.16 L3.1070615,7.84 C3.1070615,9.54103703 4.49814032,10.92 6.21412301,10.92 L12.9931663,10.92 C14.709149,10.92 16.1002278,9.54103703 16.1002278,7.84 L16.1002278,6.16 C16.1002278,4.45896297 14.709149,3.08 12.9931663,3.08 Z" id="path-2"></path>
     </defs>
-    <g id="logo/new文-黑" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="logo/new-b" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="编组">
             <g id="形状">
                 <use fill="#000000" xlink:href="#path-2"></use>
