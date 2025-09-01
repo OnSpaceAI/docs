@@ -40,7 +40,6 @@
       {
         "tab": "Features",
         "pages": [
-          "features/dashboard",
           "features/cloudagent",
           "features/apk",        
           "features/codemode",
@@ -52,7 +51,6 @@
       {
         "tab": "Integrations",
         "pages": [
-          "integrations/spaces-integration",
           "integrations/supabase-integration",
           "integrations/figma-integration",
           "integrations/github-integration"
