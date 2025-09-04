@@ -40,8 +40,8 @@
       {
         "tab": "Features",
         "pages": [
-          "features/appstore",
           "features/dashboard",
+          "features/appstore",
           "features/cloudagent",
           "features/apk",        
           "features/codemode",
