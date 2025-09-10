@@ -1,0 +1,481 @@
+---
+title: "RevenueCat Integration"
+description: "A comprehensive guide to setting up RevenueCat for your application."
+icon: "cat"
+---
+
+### **Getting Started with RevenueCat**
+
+This guide will walk you through the essential steps to integrate RevenueCat with your application, focusing on App Store Connect configuration.
+
+### **1. Create New Project in RevenueCat**
+
+- Start by creating a new project within the RevenueCat dashboard.
+- Enter your desired **Project Name**.
+
+<img
+  className="block dark:block"
+  src="/images/rc1.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+### **2. Add App Configuration**
+
+- Navigate to your project settings and begin configuring your app.
+
+<img
+  className="block dark:block"
+  src="/images/rc2.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+### **3. Select App Store**
+
+- Choose **App Store** as your platform.
+
+<img
+  className="block dark:block"
+  src="/images/rc3.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+### **4. Add App Bundle ID**
+
+<img
+  className="block dark:block"
+  src="/images/rc4.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+- **Where to find your "App Bundle ID":**
+  1. Go to **App Store Connect**.
+  2. Navigate to **General** ➡️ **App Information**.
+  3. Copy the **Bundle ID** found under the General Information section.
+- Paste this Bundle ID into the corresponding field in RevenueCat.
+
+<img
+  className="block dark:block"
+  src="/images/rc4_1.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+---
+
+### **5. Add App-Specific Shared Secret**
+
+<img
+  className="block dark:block"
+  src="/images/rc5.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+- **Where to find your "App-specific Shared Secret":**
+  1. Go to **App Store Connect**.
+  2. Navigate to **General** ➡️ **App Information**.
+  3. Locate the **App-Specific Shared Secret** section.
+
+<img
+  className="block dark:block"
+  src="/images/rc5_1.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+4. Click **Manage** ➡️ **Generate**.
+
+<img
+  className="block dark:block"
+  src="/images/rc5_2.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+5. Copy the generated **Shared Secret**.
+
+<img
+  className="block dark:block"
+  src="/images/rc5_3.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+- Paste this Shared Secret into the designated field in RevenueCat.
+
+<img
+  className="block dark:block"
+  src="/images/rc5_4.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+---
+
+### **6. Add In-App Purchase Key Configuration**
+
+<img
+  className="block dark:block"
+  src="/images/rc6.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+- **Where to find your "In-app purchase key configuration":**
+  1. Go to **App Store Connect**.
+  2. Navigate to **Users and Access** ➡️ **Integrations**.
+  3. Select **In-App Purchase**.
+
+<img
+  className="block dark:block"
+  src="/images/rc6_1.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+4. Click **Generate In-App Purchase Key**, or click the **"\+" symbol** next to the "Active" header if you have generated one previously.
+5. Enter a name for the key when prompted.
+
+<img
+  className="block dark:block"
+  src="/images/rc6_2.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+6. Once generated, your key will appear under **Active Keys**. You will have one opportunity to **Download API Key**.
+
+<img
+  className="block dark:block"
+  src="/images/rc6_3.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+7. Store this downloaded `.p8` file securely, as you will need to upload it to RevenueCat.
+
+- **Uploading the In-App Purchase Key to RevenueCat:**
+  1. In the RevenueCat dashboard, select your App Store app from the **Apps & providers** page within your project settings.
+  2. Within your app settings, go to the **In-app purchase key configuration** tab.
+  3. Upload the `.p8` file you downloaded from App Store Connect.
+
+<img
+  className="block dark:block"
+  src="/images/rc6_4.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+---
+
+### **7. Add App Store Connect API**
+
+<img
+  className="block dark:block"
+  src="/images/rc7.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+
+- **Where to find your "App Store Connect API":**
+  1. On **App Store Connect**, go to **Users and Access** → **Integrations** → **App Store Connect API**.
+
+<img
+  className="block dark:block"
+  src="/images/rc7_1.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+  2. Click to create a new App Store Connect API key.
+  3. Ensure the newly created key has at least the **App Manager** access level.
+
+<img
+  className="block dark:block"
+  src="/images/rc7_2.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+  
+  4. **Download the API key** (`.p8` file) and save it securely.
+- **Uploading the App Store Connect API Key to RevenueCat:**
+
+<img
+  className="block dark:block"
+  src="/images/rc7_3.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+  1. In the RevenueCat dashboard, select your iOS app from the **Apps & providers** page in the navigation.
+  2. Within your app settings, go to the **App Store Connect API** tab.
+  3. Upload the `.p8` file you downloaded from App Store Connect.
+  4. You will then be prompted to input your **Issuer ID**, which you should have saved from when you created the API key.
+
+<img
+  className="block dark:block"
+  src="/images/rc7_4.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+  5. You will also need to input your **Vendor number**. This can be found in App Store Connect under **Payments and Financial Reports** (typically in the top left corner of the page).
+
+<img
+  className="block dark:block"
+  src="/images/rc7_5.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+
+<img
+  className="block dark:block"
+  src="/images/rc7_6.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+
+  6. Click **Save Changes** in the RevenueCat dashboard.
+
+---
+
+### **8. Create Subscriptions**
+
+- **Setting up Subscriptions in App Store Connect:**
+  1. Go to **App Store Connect** ➡️ **Monetization** ➡️ **Subscriptions** ➡️ **Create**.
+
+<img
+  className="block dark:block"
+  src="/images/rc8.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+  2. **Create Reference Name**: This is an internal name for your subscription.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_1.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+  
+  3. **Create Subscription**: Fill in both the **Reference Name** and **Product ID**. For example, for a monthly subscription, you might name it "monthly_subscription" and set the Product ID accordingly.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_2.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+  
+  4. Ensure you **Set Subscription Duration** (e.g., Monthly).
+
+<img
+  className="block dark:block"
+  src="/images/rc8_3.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+  5. **Availability**: By default, it will be set up globally.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_4.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+  6. **Subscription Prices**: Select the desired price from the dropdown. This will automatically convert to the global pricing table.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_5.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+<img
+  className="block dark:block"
+  src="/images/rc8_6.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+  
+  7. Make sure to **Save** your subscription.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_7.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+  8. Repeat this process for any other subscription durations (e.g., yearly).
+  9. **Localization**: Add a **Subscription Group Display Name**. This is what users will see.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_8.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+- **Importing Products into RevenueCat:**
+  1. Navigate back to RevenueCat.
+  2. Go to **Product Catalog** ➡️ **Entitlements**.
+  3. Click **New Entitlement** (e.g., "pro").
+
+<img
+  className="block dark:block"
+  src="/images/rc8_9.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+  4. Next, go to **Product Catalog** ➡️ **Products**.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_10.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+  5. Select the app you want to add products to.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_11.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+  
+  6. Choose **Import Products from App Store Connect**. RevenueCat will pull the product data directly.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_12.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+<img
+  className="block dark:block"
+  src="/images/rc8_13.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+  7. Go back to **Entitlements**, click on the entitlement you created (e.g., "pro").
+ 
+<img
+  className="block dark:block"
+  src="/images/rc8_14.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+  
+  8. Click **Attach** to link your products to the entitlement.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_15.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+<img
+  className="block dark:block"
+  src="/images/rc8_16.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+- **Setting Up Offerings in RevenueCat:**
+  1. Go to **Product Catalog** ➡️ **Offerings**.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_17.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+  2. Set up a **New Offering**.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_18.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+  
+  3. Create a **New Package** within the offering.
+
+<img
+  className="block dark:block"
+  src="/images/rc8_19.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+  
+  4. Add packages for your different subscription durations (e.g., "Annual" and "Monthly").
+
+<img
+  className="block dark:block"
+  src="/images/rc8_20.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
