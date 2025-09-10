@@ -55,6 +55,7 @@
         "pages": [
           "integrations/spaces-integration",
           "integrations/supabase-integration",
+          "integrations/revenuecat-integration",
           "integrations/figma-integration",
           "integrations/github-integration"
         ]
