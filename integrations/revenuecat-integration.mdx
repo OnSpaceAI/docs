@@ -8,18 +8,63 @@ icon: "cat"
 
 This guide will walk you through the essential steps to integrate RevenueCat with your application, focusing on App Store Connect configuration.
 
-### **1. Create New Project in RevenueCat**
+### **What's RevenueCat Integration?**
 
-- Start by creating a new project within the RevenueCat dashboard.
-- Enter your desired **Project Name**.
+RevenueCat helps you manage subscriptions and in-app purchases for your mobile app. This integration allows you to monetize your OnSpace-built app with ease.
+
+### **Prerequisites**
+
+- An OnSpace app published to the App Store
+- Apple Developer Account access
+- App Store Connect access
+- Setup all required steps under https://appstoreconnect.apple.com/business
+
+#### **Step 1: Create RevenueCat Account**
+
+**Sign up for RevenueCat**
+
+- Go to [RevenueCat](https://www.revenuecat.com/) and create an account
+- Select **Apple** as your platform during setup
 
 <img
   className="block dark:block"
-  src="/images/rc1.png"
+  src="/images/rc0.jpg"
   alt="Hero Dark"
   title={true}
   style={{ width:"100%" }}
 />
+
+#### **Step 2: Generate App Store Connect API Key**
+
+Navigate to **App Store Connect** → **Users and Access** → **Integrations** → **Team Keys**
+
+<img
+  className="block dark:block"
+  src="/images/rc0_1.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+### **Create New API Key**
+
+1. **Click** "Create New API Key" button
+2. **Set Access Level** to "App Manager" (minimum required)
+3. **Download** the API key (.p8 file) and save it securely
+4. **Copy** the Issuer ID from the API page
+
+<img
+  className="block dark:block"
+  src="/images/rc0_2.png"
+  alt="Hero Dark"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+### **XXXXCreate New Project in RevenueCat**
+
+- Start by creating a new project within the RevenueCat dashboard.
+- Enter your desired **Project Name**.
 
 ### **2. Add App Configuration**
 
@@ -27,7 +72,7 @@ This guide will walk you through the essential steps to integrate RevenueCat wit
 
 <img
   className="block dark:block"
-  src="/images/rc2.png"
+  src="/images/rc0.png"
   alt="Hero Dark"
   title={true}
   style={{ width:"100%" }}
