@@ -41,9 +41,10 @@
         "tab": "Features",
         "pages": [
           "features/dashboard",
+          "features/apk", 
+          "features/aab", 
           "features/appstore",
-          "features/cloudagent",
-          "features/apk",        
+          "features/cloudagent",       
           "features/codemode",
           "features/mobileview",
           "features/visibilitycontrols",
