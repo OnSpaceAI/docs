@@ -48,6 +48,7 @@
           "features/codemode",
           "features/mobileview",
           "features/visibilitycontrols",
+          "features/custom-domain",
           "features/nameediting"
         ]
       },
