@@ -43,6 +43,7 @@
           "features/dashboard",
           "features/apk", 
           "features/aab", 
+          "features/ai",
           "features/appstore",
           "features/cloudagent",       
           "features/codemode",
