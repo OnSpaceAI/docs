@@ -107,8 +107,23 @@ OnSpace AI provides out-of-the-box functionalities and tools to build custom AI 
 *   **AI Video Generation:** Enable users to create dynamic short-form videos from scratch. For example, build a tool that generates a compelling UGC-style video ad from a product description and a few images, complete with an AI-generated voiceover.
 *   **Advanced AI Agents & Personas:** Build specialized AI chatbots that go beyond simple Q&A. Create an AI legal assistant that drafts contracts, a virtual travel agent that plans itineraries, or a brand persona that interacts with customers in a specific voice.
 
+### Secrets Management
+OnSpace Secrets Management provides a robust and secure way to handle your application's sensitive environment variables, keeping them safe from exposure and simplifying their integration.
 
+#### How It Works
+1.  **Centralized Secure Storage:** Store critical credentials like API keys, tokens, and database passwords in a dedicated, encrypted environment. Your secrets are protected with robust encryption both when they are saved (at rest) and when they are being used (in transit).
+2.  **Intelligent On-Demand Access:** When an OnSpace feature or an Edge Function in your project requires a secret, our platform automatically detects this need. It then securely prompts you via a safe user interface to provide the necessary information, ensuring you maintain control.
+3.  **Automatic & Secure Injection:** Once configured, your secrets are never directly part of your codebase. Instead, OnSpace automatically and securely injects them into your Edge Functions and integrated services exactly when they are needed for execution, abstracting away sensitive details.
+4.  **Eliminate Hardcoding Risks:** This entire process prevents the dangerous practice of hardcoding sensitive data into your application. It acts as a critical barrier against accidental exposure in your source code, version control, or logs.
 
+### Logs & Monitoring
+OnSpace's Logs & Monitoring features provide you with a powerful, centralized hub to observe, understand, and troubleshoot your application in real-time. Gain deep visibility into every process, from user interactions to serverless function executions.
+
+#### How It Works
+*   **Real-time Activity Stream:** See a live feed of all application events, function calls, and user interactions as they happen.
+*   **Error Tracking:** Automatically capture and aggregate errors, providing immediate alerts and detailed contexts for quick resolution.
+*   **Performance Insight:** Monitor key metrics like function execution times, resource consumption, and API response latency to pinpoint performance bottlenecks.
+*   **Intuitive Debugging Interface:** Access detailed log messages, comprehensive stack traces, and execution payloads, making it easy to diagnose and fix issues without leaving the platform.
 
 
 ### Why Choose Cloud?
