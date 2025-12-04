@@ -50,6 +50,7 @@
           "features/mobileview",
           "features/visibilitycontrols",
           "features/custom-domain",
+          "features/minitools",
           "features/nameediting"
         ]
       },
