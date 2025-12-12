@@ -61,7 +61,9 @@
           "integrations/supabase-integration",
           "integrations/revenuecat-integration",
           "integrations/figma-integration",
+          "integrations/spaces-integration",
           "integrations/github-integration"
+          
         ]
       },
       {
