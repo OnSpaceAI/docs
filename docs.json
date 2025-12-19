@@ -62,6 +62,7 @@
           "integrations/revenuecat-integration",
           "integrations/figma-integration",
           "integrations/spaces-integration",
+          "integrations/stripe-integration",
           "integrations/github-integration"
           
         ]
