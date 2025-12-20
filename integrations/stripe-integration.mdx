@@ -45,6 +45,35 @@ Before integrating Stripe, ensure:
    - Test payments in your preview
    - Deploy when ready for production
 
+### **Configure Tool Permissions**
+
+You can control how OnSpace AI interacts with your Stripe account by configuring tool permissions:
+
+<img
+  className="block dark:block"
+  src="/images/stripe_perm.jpg"
+  alt="Payment Setup Process"
+  title={true}
+  style={{ width:"100%" }}
+/>
+
+1. **Access Settings**
+   - Click your profile avatar in the bottom-left corner
+   - Select "Settings" from the dropdown
+   - Navigate to "Integrations"
+   - Select "Stripe"
+2. **Set Permission Levels** For each Stripe operation, choose your preferred permission level:
+   - **Ask each time** - OnSpace will request permission before each action
+   - **Always allow** - OnSpace can perform actions automatically
+   - **Never allow** - Block specific Stripe operations
+3. **Available Permissions**
+   - Enable Stripe features
+   - Get Stripe account information
+   - Create customers
+   - List customers
+   - Create products and prices
+   - List products and prices
+
 ### **What OnSpace AI Creates**
 
 - **Customer Management** - Create and list customers in Stripe automatically
