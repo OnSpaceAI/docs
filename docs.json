@@ -58,10 +58,10 @@
         "tab": "Integrations",
         "pages": [
           "integrations/spaces-integration",
+          "integrations/stripe-integration",
           "integrations/supabase-integration",
           "integrations/revenuecat-integration",
           "integrations/figma-integration",
-          "integrations/stripe-integration",
           "integrations/github-integration"
           
         ]
