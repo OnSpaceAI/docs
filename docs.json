@@ -87,5 +87,11 @@
       "github": "https://github.com/OnSpaceAI",
       "youtube": "https://www.youtube.com/@OnSpace.AI-Official"
     }
-  }
+  },
+   "redirects": [
+    {
+      "source": "/Startbuildingyourfirstapp",
+      "destination": "/getting-started/quick-start"
+    }
+  ]
 }
