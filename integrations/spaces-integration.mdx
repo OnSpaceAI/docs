@@ -4,7 +4,7 @@ description: "Cloud is OnSpace's built-in backend service that provides comprehe
 icon: "rocket"
 ---
 
-### What is Cloud?
+## What is Cloud?
 
 **Cloud** is OnSpace's built-in backend service that provides a complete serverless backend solution for your React Native applications.
 
@@ -18,7 +18,7 @@ Think of it as **having a complete backend infrastructure that materializes inst
   style={{ width:"100%" }}
 />
 
-### Cloud vs Other Backends
+## Cloud vs Other Backends
 
 | Feature     | Cloud         | Other Backend  |
 | ----------- | ------------- | -------------- |
@@ -27,7 +27,7 @@ Think of it as **having a complete backend infrastructure that materializes inst
 | Integration | ✅**Built-in** | Custom Setup   |
 | Dashboard   | ✅**Included** | Build Yourself |
 
-### Core Features
+## Core Features
 
 **🔐 User Authentication**
 
@@ -57,8 +57,146 @@ Think of it as **having a complete backend infrastructure that materializes inst
 - Data management interface
 - User administration
 
+## Emails
 
-### Storage
+### Templates
+
+Templates lets you customize the emails your users receive during authentication flows.
+
+**What are Templates?**
+
+Templates is part of the Emails section in OnSpace Cloud. It allows you to manage the email content used in common authentication scenarios, such as sign-up confirmation, password reset, magic link login, and email change verification.
+
+Instead of relying on generic system copy, you can tailor these emails to better match your product’s tone and user experience.
+
+**Available Templates**
+
+You can manage templates for the following authentication events:
+
+* Confirm sign up
+
+Sent when a user signs up and needs to confirm their email address.
+
+* Invite user
+
+Sent when inviting a new user to join your app or workspace.
+
+* Magic link
+
+Sent when a user signs in using a one-time login link.
+
+* Change email address
+
+Sent when a user updates their email and needs to verify the new address.
+
+* Reset password
+
+Sent when a user requests a password reset.
+
+* Reauthentication
+
+Sent when a user needs to verify their identity again before completing a sensitive action.
+
+**Why use Templates?**
+
+Customizing your authentication emails helps you create a more polished and trustworthy user experience.
+
+**Better user clarity**
+
+Users can more easily understand why they received an email and what they need to do next.
+
+**Stronger brand consistency**
+
+Your authentication emails can match your product’s tone, wording, and overall brand experience.
+
+**Smoother onboarding and login flows**
+
+Clearer emails can reduce confusion during sign-up, login, password reset, and account recovery.
+
+**How it works**
+
+When a user triggers an authentication action, OnSpace automatically uses the matching email template for that flow.
+
+For example:
+
+* A new user signs up → the Confirm sign up template is used
+* A user requests a password reset → the Reset password template is used
+* A user chooses passwordless login → the Magic link template is used
+
+This makes Templates the central place to manage the email copy used across your authentication system.
+
+**Best practices**
+
+To create effective authentication emails:
+
+* Keep the message short and action-oriented
+* Make the next step obvious
+* Use wording that matches your app
+* Add a security reminder for sensitive actions
+* Avoid overly promotional language in authentication emails
+
+### SMTP Settings
+
+SMTP Settings lets you configure a custom email provider for sending authentication emails from your app.
+
+**What are SMTP Settings?**
+
+SMTP Settings is part of the Emails section in OnSpace Cloud. It allows you to connect your own SMTP provider so authentication emails can be sent through your preferred email service instead of relying on the default built-in mail service.
+
+This is especially useful for production apps that need more reliable delivery, better sender control, and a more professional email experience.
+
+**Why use SMTP Settings?**
+
+Using custom SMTP gives you more control over how your authentication emails are delivered.
+
+**More reliable delivery**
+
+Production apps often need a dedicated email provider to ensure emails are sent consistently and arrive on time.
+
+**Better sender control**
+
+You can send emails from your own domain or preferred sender address, which helps create a more professional and trustworthy user experience.
+
+**Production-ready setup**
+
+Custom SMTP is recommended for live apps that expect real user traffic or higher email volume.
+
+**How it works**
+
+Once SMTP is configured, OnSpace uses your custom email provider to send authentication emails triggered by your app.
+
+These may include emails for flows such as:
+
+* Sign-up confirmation
+* Password reset
+* Magic link login
+* Email change verification
+* Reauthentication
+
+This means SMTP Settings controls how your authentication emails are sent, while Templates controls what those emails say.
+
+**When should you use it?**
+
+SMTP Settings is recommended when:
+
+* You are preparing your app for production
+* You want to send emails from your own domain
+* You need more reliable email delivery
+* You want greater control over your email infrastructure
+
+For testing or low-volume usage, the built-in email service may be enough. For production use, custom SMTP is the recommended setup.
+
+**Best practices**
+
+To set up SMTP successfully:
+
+* Use a trusted email provider
+* Make sure your sender address is valid
+* Use credentials created specifically for SMTP access
+* Test your setup before going live
+* Pair SMTP with customized email templates for a better user experience
+
+## Storage
 
 OnSpace Storage provides a comprehensive solution for managing all your digital assets, simplifying file operations without needing to write complex code.
 *   **Storage Buckets:** All your files are stored securely within dedicated project buckets. Each file gets a unique URL or reference, allowing you to easily link them within your application.
@@ -70,7 +208,7 @@ OnSpace Storage provides a comprehensive solution for managing all your digital 
 *   **File Types:** Compatible with all common file formats, including images, videos, documents, and various static assets.
 *   **Security:** Benefit from enterprise-grade encryption for data at rest and in transit, along with robust access controls to keep your files secure.
 
-### Edge Functions
+## Edge Functions
 OnSpace Edge Functions empower you to execute serverless logic that automatically scales with your project's demands. Focus on building powerful features without the hassle of server provisioning or management.
 
 *   **Serverless Logic:** Deploy custom code for your APIs, automate workflows for backend tasks, or implement advanced features, all without maintaining any servers.
@@ -89,7 +227,7 @@ OnSpace Edge Functions empower you to execute serverless logic that automaticall
 *   **Easy Creation:** Simply describe the function you need in the OnSpace AI chat, and we'll help you generate the code.
 *   **Auto-Scaling:** Functions are designed to scale instantly and automatically to match your traffic, ensuring high availability and performance.
 
-### AI Services
+## AI Services
 At OnSpace, we believe AI should be a core component of modern applications. Our platform comes with integrated AI capabilities, powered by OnSpace AI, enabling you to swiftly integrate intelligent features that enhance your app's functionality and user engagement.
 
 **AI-Powered Features**
@@ -100,7 +238,7 @@ OnSpace AI provides out-of-the-box functionalities and tools to build custom AI 
 *   **AI Video Generation:** Enable users to create dynamic short-form videos from scratch. For example, build a tool that generates a compelling UGC-style video ad from a product description and a few images, complete with an AI-generated voiceover.
 *   **Advanced AI Agents & Personas:** Build specialized AI chatbots that go beyond simple Q&A. Create an AI legal assistant that drafts contracts, a virtual travel agent that plans itineraries, or a brand persona that interacts with customers in a specific voice.
 
-### Secrets Management
+## Secrets Management
 OnSpace Secrets Management provides a robust and secure way to handle your application's sensitive environment variables, keeping them safe from exposure and simplifying their integration.
 
 **How It Works**
@@ -109,7 +247,7 @@ OnSpace Secrets Management provides a robust and secure way to handle your appli
 3.  **Automatic & Secure Injection:** Once configured, your secrets are never directly part of your codebase. Instead, OnSpace automatically and securely injects them into your Edge Functions and integrated services exactly when they are needed for execution, abstracting away sensitive details.
 4.  **Eliminate Hardcoding Risks:** This entire process prevents the dangerous practice of hardcoding sensitive data into your application. It acts as a critical barrier against accidental exposure in your source code, version control, or logs.
 
-### Logs & Monitoring
+## Logs & Monitoring
 OnSpace's Logs & Monitoring features provide you with a powerful, centralized hub to observe, understand, and troubleshoot your application in real-time. Gain deep visibility into every process, from user interactions to serverless function executions.
 
 **How It Works**
@@ -119,7 +257,7 @@ OnSpace's Logs & Monitoring features provide you with a powerful, centralized hu
 *   **Intuitive Debugging Interface:** Access detailed log messages, comprehensive stack traces, and execution payloads, making it easy to diagnose and fix issues without leaving the platform.
 
 
-### Why Choose Cloud?
+## Why Choose Cloud?
 
 **Instant Backend Setup**
 
